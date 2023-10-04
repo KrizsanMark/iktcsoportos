@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+td[colspan="2"] {
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+}
+                  
+td.subject {
+    font-weight: bold;
+}
+
+td.room {
+    font-style: italic;
+}
+
+td.teacher {
+    color: #007BFF;
+}
